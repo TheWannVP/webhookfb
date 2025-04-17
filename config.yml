@@ -1,6 +1,6 @@
 tunnel: webhookfb-tunnel
 credentials-file: /root/.cloudflared/webhookfb-tunnel.json
 ingress:
-  - hostname: webhook.your_domain.com
-    service: http://localhost:3000
+  - hostname: webhookfb.techbb.org
+    service: http://localhost:9999
   - service: http_status:404 
