@@ -1,0 +1,6 @@
+tunnel: webhookfb-tunnel
+credentials-file: /root/.cloudflared/webhookfb-tunnel.json
+ingress:
+  - hostname: webhook.your_domain.com
+    service: http://localhost:3000
+  - service: http_status:404 
